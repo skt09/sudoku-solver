@@ -85,9 +85,6 @@ void solve(int (*values)[9])
                     }
                 }
 
-                if (i == 8 && j == 8)
-                    return;
-
                 tmp = pop(&stk);
 
                 if (tmp != NULL)
